@@ -1,0 +1,27 @@
+# Bağımlılıklar (Dependencies)
+node_modules/
+
+# Ortam değişkenleri ve gizli anahtarlar (Environment variables & secrets)
+.env
+.env.*
+!.env.example
+
+# Test ve Coverage raporları (Test coverage)
+coverage/
+
+# Log dosyaları (Logs)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editör ve IDE ayarları (Editor directories)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# İşletim sistemi dosyaları (OS generated files)
+.DS_Store
+Thumbs.db
+desktop.ini
